@@ -19,3 +19,13 @@ def strcounter2(s):
 
 strcounter2('aaaaaabbbbbbbcccccccccccccccdddddddddddde')
 
+
+def palindrom(s):
+    if s == s[::-1]:
+        print('True')
+    else:
+        print('False')
+
+palindrom('лепсспел')
+
+
