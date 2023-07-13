@@ -1,0 +1,30 @@
+h1 {
+    background: green;
+    color: pink;
+}
+
+.block1 {
+    color: black;
+    font-size: 32pt;
+    background: yellow;
+}
+
+.block2 {
+    font-family: Molot;
+    border: 10px solid violet;
+    border-radius: 10px;
+    font-size: 30pt;
+    margin-bottom: 80px;
+    padding-top: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+}
+
+.block3 {
+    font-size: 25pt;
+    font-weight: bold;
+    font-family: Etna;
+    background: pink;
+
+}
