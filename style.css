@@ -22,9 +22,9 @@ h1 {
 }
 
 .block3 {
-    font-size: 25pt;
-    font-weight: bold;
-    font-family: Etna;
-    background: pink;
+    font-style: italic;
+    text-align: center;
+    font-size: 24pt;
+    text-shadow: -1px -2px 3px green;
 
 }
