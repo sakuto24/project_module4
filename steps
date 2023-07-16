@@ -1,0 +1,6 @@
+1. pip install django
+2. django-admin startproject advertisements
+3. cd .\advertisements\
+4. python manage.py runserver
+5. stop the server - ctrl+c
+6. python manage.py startapp app_advertisements
