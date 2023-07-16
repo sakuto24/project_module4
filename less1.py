@@ -1,3 +1,6 @@
+import django
+
+
 def strcounter(s):
     print(set(s))
     for sym in set(s):
