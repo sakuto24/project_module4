@@ -37,8 +37,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'app_advertisements',
     'app_lesson_4',
+    'app_advertisements'
 ]
 
 MIDDLEWARE = [
@@ -117,8 +117,8 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/4.0/howto/static-files/
 
-STATICFILES_DIR = [
-    Path.joinpath(BASE_DIR, "app_advertisements\static")
+STATICFILES_DIRS = [
+    Path.joinpath(BASE_DIR, "static")
 ]
 
 STATIC_URL = 'static/'
