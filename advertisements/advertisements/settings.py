@@ -37,7 +37,6 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'app_lesson_4',
     'app_advertisements'
 ]
 
@@ -122,6 +121,10 @@ STATICFILES_DIRS = [
 ]
 
 STATIC_URL = 'static/'
+
+MEDIA_ROOT = Path.joinpath(BASE_DIR, 'media/')
+
+MEDIA_URL = 'media/'
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/4.0/ref/settings/#default-auto-field
